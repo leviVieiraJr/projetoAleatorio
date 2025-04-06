@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="projetos.css" />
+  <title>Projetos</title>
+</head>
+<body>
+
+  <header class="space-header">
+    <h1 class="welcome">PROJETOS</h1>
+    <div class="stars"></div>
+    <div class="stars"></div>
+  </header>
+
+  <nav>
+    <ul class="nav">
+      <li class="lista"><a href="./../index.html">HOME</a></li>
+      <li class="lista"><a href="">SOBRE</a></li>
+      <li class="lista"><a href="./projetos.html">PROJETOS</a></li>
+      <li class="lista"><a href="./contato.html ">CONTATO</a></li>
+    </ul>
+  </nav>
+
+  <div class="container-2">
+    <div class="list-project">
+      <ul class="ul">
+        <li class="list">
+          <img src="./../images/minimalista.png" alt="Casa 1" />
+          <button class="btn" onclick="abrirOverlay(this)" 
+            data-titulo="Casa Minimalista"
+            data-texto="Projeto residencial moderno com fachada branca, formas geométricas limpas e grandes aberturas de vidro, integrando o interior ao ambiente externo de forma elegante e funcional."
+            data-img="./../images/minimalista.png">
+            CONFERIR
+          </button>
+        </li>
+        <li class="list">
+          <img src="./../images/predio.png" alt="Casa 2" />
+          <button class="btn" onclick="abrirOverlay(this)" 
+            data-titulo="Prédio Corporativo Moderno"
+            data-texto="Torre comercial com fachada de vidro espelhado que reflete o céu e os prédios ao redor. Design elegante e contemporâneo, ideal para ambientes urbanos corporativos sofisticados."
+            data-img="./../images/predio.png">
+            CONFERIR
+          </button>
+        </li>
+        <li class="list">
+          <img src="./../images/casa.jpg" alt="Casa 3" />
+          <button class="btn" onclick="abrirOverlay(this)" 
+            data-titulo="Casa com Varanda"
+            data-texto="Charmosa residência de dois andares com telhado colonial, janelas de madeira e ampla varanda coberta. Destaque para o jardim bem cuidado, móveis de madeira rústicos e vegetação suspensa que compõe um ambiente acolhedor e ideal para descanso ao ar livre."
+            data-img="./../images/casa.jpg">
+            CONFERIR
+          </button>
+        </li>
+        <!-- Adicione mais cards com outros dados se quiser -->
+      </ul>
+    </div>
+  </div>
+
+  <!-- Overlay único -->
+  <div id="overlay" class="overlay" style="display: none;">
+    <div class="conteudo">
+      <h1 id="titulo"></h1>
+      <p id="info"></p>
+      <img id="imagemOverlay"src="" alt="" width="200px" height="300px" />
+      <button class="btn-image" onclick="fecharOverlay()">Fechar</button>
+    </div>
+  </div>
+
+    <script src="./projetos.js"></script>
+</body>
+</html>

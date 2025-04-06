@@ -1,0 +1,33 @@
+<div class="container-2">
+        <div class="list-project">
+            <ul class="ul">
+                <li class="list"><img src="./../images/ai-generated-house-design.jpg" alt=""> <button onclick="mostrarOverlay()" class="btn">CONFERIR</button></li>
+                <li class="list"><img src="./../images/ai-generated-house-design.jpg" alt=""> <button  onclick="mostrarOverlay2()" class="btn" id="btn-2">CONFERIR</button></li>
+                <li class="list"><img src="./../images/ai-generated-house-design.jpg" alt=""> <button>CONFERIR</button></li>
+                <li class="list"><img src="./../images/ai-generated-house-design.jpg" alt=""> <button>CONFERIR</button></li>
+                <li class="list"><img src="./../images/ai-generated-house-design.jpg" alt=""> <button>CONFERIR</button></li>
+                <li class="list"><img src="./../images/ai-generated-house-design.jpg" alt=""> <button>CONFERIR</button></li>
+                <li class="list"><img src="./../images/ai-generated-house-design.jpg" alt=""> <button>CONFERIR</button></li>
+                <li class="list"><img src="./../images/ai-generated-house-design.jpg" alt=""> <button>CONFERIR</button></li>
+                <li class="list"><img src="./../images/ai-generated-house-design.jpg" alt=""> <button>CONFERIR</button></li>
+                <li class="list"><img src="./../images/ai-generated-house-design.jpg" alt=""> <button>CONFERIR</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay">
+        <div class="conteudo-1">
+            <h1 class="titulo">PREDIO DE EMPRESA</h1>
+            <p class="info">Seu texto aqui</p>
+            <img src="./../images/ai-generated-house-design.jpg" alt="" width="200px">
+            <button class="btn-image" onclick="fecharOverlay()">Fechar</button>   
+        </div>
+    </div>
+    <div id="overlay-2" class="overlay">
+        <div class="conteudo-2">
+            <h1 class="titulo">PREDIO DE EMPRESA</h1>
+            <p class="info">Seu texto aqui</p>
+            <img id="image" src="./../images/ai-generated-house-design.jpg" alt="" width="200px">
+            <button class="btn-image" onclick="fecharOverlay2()">Fechar</button>   
+        </div>
+    </div>
